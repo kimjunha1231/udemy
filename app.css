@@ -1,0 +1,16 @@
+h2{
+    color:indigo;
+    text-align: center;
+    background-color: papayawhip;
+    letter-spacing: 10px;
+    font-weight: 400;
+    font-family:  fantasy;
+    text-decoration: #f83282 underline wavy;
+}
+button{
+    color: magenta;
+    background-color: cyan;
+}
+a{
+    text-decoration: none;
+}
