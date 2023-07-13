@@ -5,37 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
+    <link rel="stylesheet" href="app.css">
+
 </head>
 
 <body>
     <nav>
+        <label for="search">Search</label>
         <input type="text" placeholder="search">
+        <input type="password" placeholder="password">
         <button>Log In</button>
-        <button>Sign Up</button>
+        <button id="signup" style="color:coral">Sign Up</button>
     </nav>
     <main>
         <h1>Popular Posts</h1>
-        <section>
+        <section class="post">
             <span>Posted by <a href="#213adas">/u/not_funny</a></span>
-            <h2>Lol look at this hilarious meme <span>funny</span></h2>
+            <h2>Lol look at this hilarious meme <span class="tag">funny</span></h2>
             <button>+Vote</button>
             <hr>
         </section>
-        <section>
+        <section class="post">
             <span>Posted by <a href="#345adas">/u/gooner4lyfe</a></span>
-            <h2>Happy birthday to the strongest defender/bodyguard in the Prem! <span>gunners</span></h2>
+            <h2>Happy birthday to the strongest defender/bodyguard in the Prem! <span class="tag">gunners</span></h2>
             <button>+Vote</button>
             <hr>
         </section>
-        <section>
+        <section class="post">
             <span>Posted by <a href="#981adas">/u/dogfan</a></span>
-            <h2>This Corgi got some good stuff from the vet. <span>dogs</span></h2>
+            <h2>This Corgi got some good stuff from the vet. <span class="tag">dogs</span></h2>
+            <button>+Vote</button>
+            <hr>
+        </section>
+        <section class="post">
+            <span>Posted by <a href="#213adas">/u/not_funny</a></span>
+            <h2>Lol look at this hilarious meme <span class="tag">funny</span></h2>
+            <button>+Vote</button>
+            <hr>
+        </section>
+        <section class="post">
+            <span>Posted by <a href="#345adas">/u/gooner4lyfe</a></span>
+            <h2>Happy birthday to the strongest defender/bodyguard in the Prem! <span class="tag">gunners</span></h2>
+            <button>+Vote</button>
+            <hr>
+        </section>
+        <section class="post">
+            <span>Posted by <a href="#981adas">/u/dogfan</a></span>
+            <h2>This Corgi got some good stuff from the vet. <span class="tag">dogs</span></h2>
             <button>+Vote</button>
             <hr>
         </section>
     </main>
     <footer>
         <nav>
+
             <ul>
                 <li>
                     <a href="#home">Home</a>
@@ -47,11 +70,37 @@
                     <a href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#puppies">Puppies</a>
+                    <a href="www.google.com">Google</a>
                 </li>
             </ul>
+
         </nav>
+        <a href="#license">Content is available under these licenses</a>
     </footer>
+    <p>
+        공공형 AI 서비스 개발에 관심 있는 만 14세 이상 시민 누구나
+        팀(2인 이상 최대 5인), 최소 2인 이상
+        기간 및 일정
+        참가접수 : 4.12(수) ~ 5.14(일)
+        1차 심사(서면평가) : 5.15(월) ~ 5.18(목)
+        1차 심사결과 발표 : 5.19(금)
+        본선 진출자 대상 사전교육 및 멘토링 안내 : 5.19(금) ~ 5.22(월)
+        사전교육 및 멘토링 운영 (오프라인) : 5.31(수)
+        2차 심사 (발표평가, 오프라인) / 시상식: 7.5(수)* 2차 심사 장소는 추후 공지
+        상금 (총 1,260만 원 규모의 대회이며, 총8팀 시상(공모1: 5팀/공모2: 3팀)
+        [공모1] 생성형 AI를 활용한 교육지원 Web 또는 App 개발
+        최우수상(1팀) : 500만원(서울디지털재단이사장상)
+        우수상(2팀) : 각 200만원(서울디지털재단이사장상)
+        입상(2팀) : 50만원(서울디지털재단이사장상)
+        [공모2] 생성형 AI를 활용한 상담지원 web 또는 App 개발
+        최우수상(1팀) : 120만원(120다산콜재단이사장상)
+        우수상(1팀) : 80만원(120다산콜재단이사장상)
+        입상(1팀) : 60만원(120다산콜재단이사장상)
+        문의
+        인공지능팩토리 운영자 메일 : cs@alifactory.page
+        유선 : 02-120
+
+    </p>
 
 </body>
 
