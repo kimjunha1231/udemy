@@ -40,7 +40,7 @@ body {
   color: #016ff9;
 }
 
-.pricing-features-items {
+.pricing-features-item {
   font-weight: 600px;
   letter-spacing: 1px;
   font-size: 12px;
@@ -48,7 +48,7 @@ body {
   padding: 15px 0;
   border-top: 1px solid #e1f1ff;
 }
-.pricing-features-items:last-child {
+.pricing-features-item:last-child {
   border-top: 1px solid #e1f1ff;
 }
 .pricing-price {
